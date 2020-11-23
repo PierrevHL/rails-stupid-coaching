@@ -1,0 +1,12 @@
+$gray: #fc0f0f;
+
+body {
+  background: $gray; // Using this variable
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
